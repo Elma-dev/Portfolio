@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+  background-color:#24252A;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  
+}
+body{
+  margin: 10px;
+  border: #2abb2a solid;
+  border-bottom:none ;
+  place-items: center;
+}
+
+.main{
+  color: aliceblue;
+  padding:  5%;
+  margin: auto;
+  margin-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+.main .text{
+  width: 60%;
+  
+  line-height: 1.6;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+.hello{
+  font-size: xx-large;
+  
+}
+.first{
+  color: #2abb2a;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.first2{
+  color: #24252A;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.myName{
+  color: #2abb2a;
+}
+.main img{
+  width: 30%;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid #2abb2a;
+
+}
+
+.warpper .button {
+  display: inline-block;
+  height: 60px;
+  width:60px;
+  margin: 0 5px;
+  overflow: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition:all 0.3s ease-out ;
+}
+.warpper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width:60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  text-align: center;
+}
+.warpper .button:hover{
+  width: 200px;
+}
+
+.warpper .button:nth-child(1):hover span {
+  color: #4267b2;
+}
+.warpper .button:nth-child(3):hover span {
+  color: #1DA1F2;
+}
+.warpper .button:nth-child(2):hover span {
+  color: #E1306c;
+}
+.warpper .button:nth-child(4):hover span {
+  color: #333;
+}
+.warpper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.Project{
+  color: aliceblue;
+  height: calc(100vh - 100px);
+  padding:  0 5%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.skili .item{
+  list-style: none;
+  width: 50%;
+  padding-top:20px ;
+  margin: auto;
+  
+}
+.item h2{
+  text-align: center;
+}
+.item p{
+  color: aliceblue;
+  text-align: center;
+}
+
+.Education{
+  color: aliceblue;
+  height: calc(100vh- 0px);
+  padding:  0 5%;
+  margin: auto;
+  margin-bottom:5% ;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
