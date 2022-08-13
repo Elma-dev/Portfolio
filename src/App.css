@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
-  background-color:#24252A;
+  
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   
 }
 body{
+  background-color:#24252A;
   margin: 10px;
   border: #2abb2a solid;
   border-bottom:none ;
   place-items: center;
+  
 }
 
 .main{
@@ -20,15 +22,16 @@ body{
   margin-bottom: 5%;
   font-family: 'Roboto', sans-serif;
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
 }
 
 .main .text{
   width: 60%;
-  
   line-height: 1.6;
   letter-spacing: 1px;
   vertical-align: middle;
+  padding-top: 10%;
+  text-shadow:10px 10px 12px black;
 }
 .hello{
   font-size: xx-large;
@@ -38,6 +41,7 @@ body{
   color: #2abb2a;
   font-weight: bolder;
   font-size: 40px;
+  text-shadow:10px 10px 12px black;
 }
 .first2{
   color: #24252A;
@@ -101,7 +105,7 @@ body{
 
 .Project{
   color: aliceblue;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
   padding:  0 5%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
@@ -113,7 +117,11 @@ body{
   width: 50%;
   padding-top:20px ;
   margin: auto;
+  text-shadow:10px 10px 12px black;
   
+}
+.divSkills{
+  padding-top: 10%;
 }
 .item h2{
   text-align: center;
@@ -125,11 +133,51 @@ body{
 
 .Education{
   color: aliceblue;
-  height: calc(100vh- 0px);
+  height: calc(100vh);
   padding:  0 5%;
   margin: auto;
   margin-bottom:5% ;
   font-family: 'Roboto', sans-serif;
+}
+
+.projContent{
+  padding-top: 5%;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+.pr1{
+  place-items: center;
+  width: 20%;
+  height: 40%;
+  border-radius: 10px;
+  background-position: center center;
+  text-align: center;
   
-  
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  transition: all 0.3s ease-out;
+
+}
+.pr1 a p{
+  text-shadow:10px 10px 12px black;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 30%;
+}
+.pr1 a p:hover{
+  color: #2abb2a;
+}
+.pr1:hover{
+  width: 15%;
+  height: 35%;
+  margin: 5px;
+  border-radius: 10px;
+  background-position: center center;
+  transition: all 0.3s ease-out;
 }

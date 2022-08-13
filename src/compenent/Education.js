@@ -7,7 +7,7 @@ import { useRef } from 'react';
 function Education() {
     
   return (
-    <div className='Education'>
+    <div className='Education' id="education">
                 <span className='hello'>
                         <span  className='first'>E</span>
                         ducation :
@@ -35,9 +35,9 @@ function Education() {
                             
                         >
                             <h3 style={{color:"black",background:"white"}} className='vertical-time-element-title'>
-                                Dakhla High School Ouled Berhil
+                                IBN Zohr University, Faculty of Science, FSA
                             </h3>
-                            <p style={{color:"black",background:"white"}}>Baccalaureate in Mathematics sciences</p>
+                            <p style={{color:"black",background:"white"}}>General University Degree</p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement 
                             className='vertical-timeline-element--education' 

@@ -2,12 +2,13 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className='Project'>
+    <div className='Project' id="skills">
                 <span className='hello'>
                     <span  className='first'>S</span>
                     kills :
                 </span>
                 <br/>
+                <div className='divSkills'>
                 <ol className='skili'>
                     <li className='item'>
                         <h2>Languages</h2>
@@ -22,6 +23,7 @@ function Skills() {
                         <p>Java Spring, MySQL, Php.</p>
                     </li>
                 </ol>
+                </div>
             </div>
   )
 }

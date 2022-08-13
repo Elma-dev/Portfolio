@@ -1,19 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import './Nav.css'
+import {animateScroll} from 'react-scroll'
 
 //import {Link} from 'react-scroll'
 
 function Navbar() {
+    
   return (
-        <header>
-            <p><Link to="home" spy={true} smooth={true} offset={50} duration={500}>AELMAJJODI</Link></p>
+        <header id="homenave">
+            <p><Link to="#homnave" >AELMAJJODI</Link></p>
             <nav>
                 <ul className='nav__links'>
-                    <li><Link to="#">About</Link></li>
-                    <li><Link to="#">Education</Link></li>
-                    <li><Link to="#">Skills</Link></li>
-                    <li><Link to="#">Project</Link></li>
+                    <li><Link to="#home">About</Link></li>
+                    <li><Link to="#education">Education</Link></li>
+                    <li><Link to="#skills">Skills</Link></li>
+                    <li><Link to="#projects">Project</Link></li>
                     
                 </ul>
             </nav>

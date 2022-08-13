@@ -6,6 +6,7 @@ import Typewriter from 'typewriter-effect'
 
 import Skills from './Skills'
 import Education from './Education'
+import Projects from './Projects'
 
 
 
@@ -54,6 +55,7 @@ function Home() {
             </div>
             <Education/>
             <Skills/>
+            <Projects/>
             
         </>
     
