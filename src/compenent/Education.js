@@ -51,6 +51,20 @@ function Education() {
                             </h3>
                             <p style={{color:"black",background:"white"}}>Bachelor of Mathematics and Computer Science</p>
                         </VerticalTimelineElement>
+                        <VerticalTimelineElement 
+                            className='vertical-timeline-element--education' 
+                            date="2022 - 2024"
+                            iconStyle={{background:"#24252A" , color:"#fff"} }
+                            icon={<SchoolIcon/>}
+                            
+                        >
+                            <h3 style={{color:"black",background:"white"}} className='vertical-time-element-title'>
+                                HASSAN II University, ENSET Mohammedia
+                            </h3>
+                            <p style={{color:"black",background:"white"}}>MASTER’S STUDENT iN ARTiFiCiAL INTELLiGENCE &
+DiSTRiBUTED SYSTEMS
+</p>
+                        </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
                 
